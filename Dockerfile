@@ -1,5 +1,5 @@
 # use Cypress provided image with all dependencies included
-FROM cypress/base:8
+FROM cypress/base:12
 # use a work directory
 WORKDIR /home/node/app
 # copy our test page and test files
