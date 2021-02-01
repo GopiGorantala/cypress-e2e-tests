@@ -23,7 +23,7 @@ jobs:
           record: true
           parallel: true
           config-file: config/admin_portal_stage.json
-          group: 'Admin portal e2e tests'
+          group: 'Admin portal e2e tests, run against edX staging'
           # ci-build-id: '${{ github.sha }}-${{ github.workflow }}-${{ github.event_name }}'
         env:
           CYPRESS_LMS_USER_EMAIL: ${{ secrets.CYPRESS_LMS_USER_EMAIL }}

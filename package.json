@@ -7,6 +7,8 @@
     "cy:verify": "cypress verify",
     "cy:open_admin_portal": "cypress open --env configFile=admin_portal_stage",
     "cy:run_admin_portal": "cypress run --env configFile=admin_portal_stage",
+    "cy:open_admin_portal_devstack": "cypress open --env configFile=admin_portal_devstack",
+    "cy:run_admin_portal_devstack": "cypress run --env configFile=admin_portal_devstack",
     "lint": "eslint --ext .js --ext .jsx .",
     "lint:fix": "eslint --ext .js --ext .jsx . --fix",
     "precommit": "npm run lint"
